@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="{{ asset('css/hamburger.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/microsoft.css') }}" />
     <link rel="icon" href="{{ asset('image/microsoft.ico') }}" />
+    @vite('resources/css/app.css')
+    <style>
+    </style>
   </head>
   <body>
     <header>
@@ -275,6 +278,7 @@
       </nav>
     </header>
     <main>
+      <div class="text-[72px] bg-[#1254ed] desktop:bg-mainred border-[10px] border-mainred hover:bg-[green]">123</div>
       <section id="slide">
         <div id="picture-hight" class="picture">
           <!-- swiper -->
